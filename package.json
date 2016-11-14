@@ -1,0 +1,38 @@
+{
+  "name": "gulp-flow",
+  "version": "1.0.0",
+  "description": "Gulp optimization with support for Sass, concat, min, uglify, path replace,  multi-directory, sourcemaps, UnCSS, SVG, SVG Symbols",
+  "main": "index.js",
+  "dependencies": {
+    "browser-sync": "^2.13.0",
+    "critical": "^0.7.3"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.17.0",
+    "cache": "^1.1.2",
+    "critical": "^0.7.3",
+    "del": "^2.2.2",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-cache": "^0.4.5",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-htmlmin": "^2.0.0",
+    "gulp-if": "^2.0.1",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-inject": "^4.1.0",
+    "gulp-run-sequence": "^0.3.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-svgmin": "^1.2.3",
+    "gulp-uglify": "^1.5.4",
+    "gulp-uncss": "^1.0.6",
+    "gulp-useref": "^3.1.2",
+    "lazypipe": "^1.0.1",
+    "run-sequence": "^1.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
