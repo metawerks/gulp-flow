@@ -21,17 +21,22 @@ Gulp optimization with support for Sass, concat, min, uglify, path replace, mult
 ============================
 
 ### Install Node.js
+
   - https://nodejs.org/en/
 
 ### Update NPM global.
+
   - In terminal: sudo npm install npm -g
 
 ### Navigate to working directory
+
   - optional drag/drop after cd command
   - In terminal: cd /path/to/files
 
 ### Install gulp and dependencies locally.
+
   - In terminal:   npm install --save-dev gulp gulp-cache del gulp-sass gulp-sourcemaps gulp-htmlmin gulp-useref gulp-if gulp-uglify gulp-clean-css gulp-autoprefixer gulp-uncss lazypipe gulp-imagemin gulp-svgmin run-sequence browser-sync critical
-  
+
 ### Run gulp
+
   - In terminal: gulp or gulp maps
