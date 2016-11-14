@@ -1,0 +1,17 @@
+.container {
+  height: 100%;
+  display: flex;
+  box-orient: horizontal;
+}
+
+
+.sidebar {
+  background: hotpink;
+  width: 100px;
+  box-flex:  0;
+}
+
+.main {
+  background: aliceblue;
+  box-flex: 1;
+}

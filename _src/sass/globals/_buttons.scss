@@ -1,0 +1,13 @@
+.test {
+  background-color: map-get( $color-map-gray, 4000 );
+  background-color: map-get(map-get($colorz, primary), base);
+  width:50vw;
+  height: 50vh;
+  margin: 0 auto;
+}
+
+//inception
+// now we use the function
+h1 {
+  color: color(primary, base);
+}
